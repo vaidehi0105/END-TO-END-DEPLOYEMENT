@@ -19,7 +19,7 @@
 7. run the command in the terminal '''' pip install -r requirements.txt ''''
 
 
-# Step 2 : Creating entire project structure and Creating common functionalities like logging, exception handling etc.
+### Step 2 : Creating entire project structure and Creating common functionalities like logging, exception handling etc.
 
 1. Create components folder in the src folder.Create an __init__.py file. This file is created because components will be created as a package and it can also be exported and imported. So here components are like modules such as data ingestion (reading data from some other location or database). Thus create another file in components named as data_ingestion , data_transformation, model_trainer.
 
@@ -28,9 +28,7 @@ Dividing data into train , test validation
 
 3. Data Transformation.py will contain all data transformation techniques such as categorical to numerical features, one hot encoding,label encoding etc.
 
-4. Model_trainer.py  Specially about training a model (training module), different types of model to be used, model testing parameters like confusion matric, r2 square.
-
-(Easist way to push the model directly from here to cloud)
+4. Model_trainer.py  Specially about training a model (training module), different types of model to be used, model testing parameters like confusion matric, r2 square.(Easist way to push the model directly from here to cloud)
 
 
 5. Now create another folder in src naming pipeline. Here we define what kind of pipeline we are going to create. There are mainly two types of pipeline training pipeline and prediction pipeline. Create a file in pipeline named as train_pipeline. So from here you will trigger the components for training purpose. 
