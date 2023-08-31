@@ -31,16 +31,19 @@ Dividing data into train , test validation
 4. Model_trainer.py  Specially about training a model (training module), different types of model to be used, model testing parameters like confusion matric, r2 square.(Easist way to push the model directly from here to cloud)
 
 
-5. Now create another folder in src naming pipeline. Here we define what kind of pipeline we are going to create. There are mainly two types of pipeline training pipeline and prediction pipeline. Create a file in pipeline named as train_pipeline. So from here you will trigger the components for training purpose. 
-
-Create another pipeline called predict_pipeline.py here we will predict the new data.
-
-Also create __init__.py to import these pipelines in pipeline folder.
+5. Now create another folder in src naming pipeline. Here we define what kind of pipeline we are going to create. There are mainly two types of pipeline training pipeline and prediction pipeline. Create a file in pipeline named as train_pipeline. So from here you will trigger the components for training purpose. Create another pipeline called predict_pipeline.py here we will predict the new data.Also create __init__.py to import these pipelines in pipeline folder.
 
 6. Since entire project implementation will be happening inside the src create three new files naming logger.py (For logs), exception.py(exception handling) and utils.py (any functionalities that we repeatedly use)
 
 
-## Exception handling 
+#### Exception handling 
+
+1. Here we are going to create our custom exception. So whenever we catches an exception in try and catch block the exception will be printed out from our own custom exception class  called error_message_detail .
+
+2. Here we inherit the CustomException class and intialize our own custom message using error_message_detail.
+
+
+
 
 
 
