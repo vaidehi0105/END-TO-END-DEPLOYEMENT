@@ -35,7 +35,7 @@ Dividing data into train , test validation
 
 6. Since entire project implementation will be happening inside the src create three new files naming logger.py (For logs), exception.py(exception handling) and utils.py (any functionalities that we repeatedly use)
 
-# ----------------------------------------------------------
+#### -------------------------------------------------------
 
 #### Exception handling 
 
@@ -45,7 +45,7 @@ Dividing data into train , test validation
 
 3. It will then display which module, which line and what is the error
 
-# ----------------------------------------------------------
+#### -------------------------------------------------------
 #### Logging
 
 
