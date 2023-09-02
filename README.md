@@ -35,12 +35,20 @@ Dividing data into train , test validation
 
 6. Since entire project implementation will be happening inside the src create three new files naming logger.py (For logs), exception.py(exception handling) and utils.py (any functionalities that we repeatedly use)
 
+# ----------------------------------------------------------
 
 #### Exception handling 
 
 1. Here we are going to create our custom exception. So whenever we catches an exception in try and catch block the exception will be printed out from our own custom exception class  called error_message_detail .
 
 2. Here we inherit the CustomException class and intialize our own custom message using error_message_detail.
+
+3. It will then display which module, which line and what is the error
+
+# ----------------------------------------------------------
+#### Logging
+
+
 
 
 
